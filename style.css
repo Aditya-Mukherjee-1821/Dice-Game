@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.grad{
+    background-image: linear-gradient(to right, red , blue);
+}
+
+.grad-c{
+    background-image: linear-gradient(to bottom right, rgb(226, 222, 219) , rgb(88, 83, 83));
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+
+.text-white{
+    color: white;
+}
+
+.magnify{
+    font-size: 15rem;
+}
+
+.big{
+    font-size: 5rem;
+}
+
+.diminish{
+    font-size: 2rem;
+}
+
+.container{
+    border-radius: 20px;
+
+}
+
+.show{
+    display: inline-block;
+}
+
+.block{
+    display: none;
+}
+
+span{
+    font-size: 2rem;
+    color: black;
+}
